@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<dialect
+        xmlns="http://www.thymeleaf.org/extras/dialect"
+        prefix="mat"
+        namespace-uri="http://www.ronrong.com/thymeleaf/mat"
+        class="com.ronrong.thymeleaf.mat.dialect.MatDialect">
+
+
+    <element-processor name="slide" class="com.ronrong.thymeleaf.mat.processor.element.SlideElementProcessor">
+        <documentation><![CDATA[
+                根据模板ID显示轮播
+		]]></documentation>
+    </element-processor>
+
+
+
+</dialect>

@@ -1,0 +1,12 @@
+<div class="bd">
+
+    <div class="cell" th:each="product,stat:${productList}">
+        <div class="cell-hd">
+            <img  th:src="${product.imgUrl}" alt="" width="54" height="54">
+        </div>
+        <div class="cell-bd cell-primary">
+            <h3 th:text="${product.name}"></h3>
+            <h4 th:text="${product.description}"></h4>
+        </div>
+    </div>
+</div>
